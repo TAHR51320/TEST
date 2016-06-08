@@ -20,6 +20,7 @@ public class Controller_test implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 	t = FXCollections.observableArrayList("1", "2", "3", "4");
 	test.setItems(t);
+	
 	test.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
 	
 	}
